@@ -20,16 +20,16 @@
 
 ---
 
-### 🚀 Progetti Principali
+### Progetti Principali
 
-#### 🏓 [Gestione Tornei & Classifica Elo Tennistavolo](https://github.com/michael-d-22/tennistavolo-amatori)
+#### [Gestione Tornei & Classifica Elo Tennistavolo](https://github.com/michael-d-22/tennistavolo-amatori)
 *App desktop per Windows in uso operativo reale per la gestione delle classifiche interne di un circolo sportivo.*
 - **Architettura a dominio isolato:** Core puro in TypeScript disaccoppiato da UI e runtime di sistema, ricalcolo deterministico cronologico del rating Elo e modello di sincronizzazione dati offline-first.
 - **Affidabilità & Testing:** Suite completa di 57 unit test con Vitest e test end-to-end automatizzati su flussi utente e persistenza.
 - **Workflow Agentic:** Sviluppata con supporto di Claude Code supervisionando architettura, vincoli formali, code review e test suite.
 - **Stack:** `Electron` · `React` · `TypeScript` · `Vitest` · `Claude Code`
 
-#### ⚙️ [Gestionale Prenotazione Sessioni di Allenamento](https://github.com/michael-d-22/gestionale-tennistavolo)
+#### [Gestionale Prenotazione Sessioni di Allenamento](https://github.com/michael-d-22/gestionale-tennistavolo)
 *Applicazione web concepita per digitalizzare la registrazione degli atleti e la gestione delle fasce orarie in palestra.*
 - **Architettura Enterprise:** Struttura a livelli (Controller, Service, Repository) con DTO e validazione rigorosa dei vincoli di business (gestione sovrapposizioni, capienza massima sessioni, duplicati).
 - **Persistenza & API:** Modellazione relazionale su MySQL, Spring Data JPA / Hibernate ed esposizione di endpoint RESTful.
